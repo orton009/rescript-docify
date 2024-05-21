@@ -1,0 +1,40 @@
+node_modules
+.bsb.lock
+.merlin
+.netlify
+lib
+lib/bs
+public/*.LICENSE.txt
+package-lock.json
+public/app.js
+public/app.css
+.DS_Store
+package-lock.json
+/dist/
+tailwind.config.js
+**/*.bs.js
+**/*.res.js
+**/*.res.mjs
+/mockServer/node_modules
+/mockServer/package-lock.json
+
+# yarn
+.pnp.*
+.yarn/*
+.yarn
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+
+# test
+tests/lib
+
+# vim
+Session.vim
+
+# docs
+compiledDocs/generated/*.res
+compiledDocs/metadata/*.json

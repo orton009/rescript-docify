@@ -1,0 +1,38 @@
+{
+  "$schema": "https://raw.githubusercontent.com/rescript-lang/rescript-compiler/master/docs/docson/build-schema.json",
+  "name": "@package/crafter",
+  "uncurried": true,
+  "jsx": {
+    "version": 4,
+    "mode": "classic"
+  },
+  "bsc-flags": ["-bs-super-errors", "-open Core"],
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    },
+    {
+      "dir": "docs",
+      "subdirs": true
+    },
+    { "dir": "test", "subdirs": true }
+  ],
+  "suffix": ".bs.js",
+  "namespace": false,
+  "ppx-flags": [["@greenlabs/ppx-spice/ppx", "-uncurried"]],
+  "package-specs": {
+    "module": "esmodule",
+    "in-source": true
+  },
+  "warnings": {
+    "number": "-44"
+  },
+  "bs-dependencies": [
+    "@rescript/react",
+    "rescript-webapi",
+    "@ryyppy/rescript-promise",
+    "@rescript/core",
+    "@greenlabs/ppx-spice"
+  ]
+}

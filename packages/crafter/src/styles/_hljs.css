@@ -1,0 +1,171 @@
+/*
+Docco style used in http://jashkenas.github.com/docco/ converted by Simon Madine (@thingsinjars)
+*/
+/* purgecss start ignore */
+
+.hljs {
+  display: block;
+
+  /*overflow-x: auto;*/
+  /*background: #f8f8ff;*/
+}
+
+.hljs-quote {
+  color: #408080;
+  font-style: italic;
+}
+
+.hljs-operator,
+.hljs-literal {
+  color: #5e5ede;
+}
+
+.hljs-comment {
+  @apply text-stonegray-40;
+}
+
+.hljs-selector-tag,
+.hljs-subst {
+  color: #954121;
+}
+
+.hljs-keyword {
+  color: #b151dd;
+}
+
+.hljs-number,
+.hljs-string,
+.hljs-doctag {
+  color: #dd8c1b;
+}
+
+.hljs-selector-id,
+.hljs-selector-class,
+.hljs-section,
+.hljs-type {
+  color: #02a875;
+}
+
+.hljs-params {
+  color: #00f;
+}
+
+.hljs-title {
+  color: #a0e2c3;
+}
+
+.hljs-tag,
+.hljs-name,
+.hljs-attribute {
+  color: #76b6ff;
+  font-weight: normal;
+}
+
+.hljs-variable,
+.hljs-template-variable {
+  color: #008080;
+}
+
+.hljs-regexp,
+.hljs-link {
+  color: #b68;
+}
+
+.hljs-symbol,
+.hljs-bullet {
+  color: #f36960;
+}
+
+.hljs-built_in,
+.hljs-builtin-name {
+  color: #0086b3;
+}
+
+.hljs-meta {
+  color: #f1f1f1;
+}
+
+.hljs-deletion {
+  background: #fdd;
+}
+
+.hljs-addition {
+  background: #dfd;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: bold;
+}
+
+.hljs-function {
+  color: #8aaec8;
+}
+
+.hljs-module-identifier {
+  color: #5e5ede;
+}
+
+/* tweaks to syntax highlighting, assuming atom-one-light theme */
+
+.hljs-character {
+  color: #388b72;
+}
+
+.hljs-constructor {
+  color: #dd8c1b;
+}
+
+/* DARK MODE COLORS */
+
+.hljs.dark {
+  @apply text-stonegray-30;
+}
+
+.hljs.dark .hljs-module-identifier {
+  @apply text-fire-dark;
+}
+
+.hljs.dark .hljs-comment {
+  color: #546e7a;
+}
+
+.hljs.dark .hljs-operator,
+.hljs.dark .hljs-literal {
+  @apply text-ocean-dark;
+}
+
+.hljs.dark .hljs-tag,
+.hljs.dark .hljs-name,
+.hljs.dark .hljs-attribute {
+  @apply text-water-dark;
+  font-weight: normal;
+}
+
+.hljs.dark .hljs-number,
+.hljs.dark .hljs-string,
+.hljs.dark .hljs-doctag {
+  @apply text-orange-dark;
+}
+
+.hljs.dark .hljs-keyword {
+  @apply text-berry-dark-50;
+}
+
+.hljs.dark .hljs-built_in,
+.hljs.dark .hljs-builtin-name {
+  @apply text-water-dark;
+}
+
+.hljs.dark .hljs-title {
+  color: inherit;
+}
+
+.hljs.dark .hljs-params {
+  color: inherit;
+}
+
+/* purgecss end ignore */

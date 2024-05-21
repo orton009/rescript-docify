@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Crafter - TestSuite</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.svg" />
+    <script>
+      var apiServer = "/*switchboard-BACKEND_ENDPOINT*/";
+      var publicKey = "";
+      var kid = "";
+    </script>
+    <script defer src="/app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      WebFont.load({
+        google: {
+          families: ["Inter"],
+        },
+      });
+    </script>
+    <link rel="stylesheet" href="/app.css" />
+    <style>
+      html,
+      body {
+        font-family: "Inter";
+        font-weight: 400;
+        font-size: 14px;
+        -webkit-font-smoothing: antialiased;
+        padding: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background: #fff;
+        display: flex;
+        flex-direction: column;
+      }
+
+      #app {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+      }
+
+      .list-item {
+        background-color: rgba(255, 255, 255, 1);
+        padding: 10px;
+        transition: background-color 0.2s;
+      }
+
+      .list-item:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+
+      .clickable {
+        cursor: pointer;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="app"></div>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+{
+  "platform": "linux",
+  "rescriptDirectory": "/usr/src/packages/crafter/docs/generated",
+  "metadataDirectory": "/usr/src/packages/crafter/docs/metadata",
+  "sources": [
+    {
+      "paths": ["/usr/src/packages/crafter/src/Components"],
+      "expanded": true,
+      "sidebarModuleName": "Components"
+    },
+    {
+      "paths": ["/usr/src/packages/crafter/src/Theme"],
+      "expanded": true,
+      "sidebarModuleName": "Theme"
+    }
+  ],
+  "rootFilePath": "/usr/src/packages/crafter/test/Doc.res"
+}

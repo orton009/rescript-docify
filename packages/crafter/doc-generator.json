@@ -1,0 +1,21 @@
+{
+  "rescriptDirectory": "/Users/drupadkumar.singh/Repo/rescript-euler-dashboard/packages/crafter/docs/generated",
+  "metadataDirectory": "/Users/drupadkumar.singh/Repo/rescript-euler-dashboard/packages/crafter/docs/metadata",
+  "sources": [
+    {
+      "paths": [
+        "/Users/drupadkumar.singh/Repo/rescript-euler-dashboard/packages/crafter/src/Components"
+      ],
+      "expanded": true,
+      "sidebarModuleName": "Components"
+    },
+    {
+      "paths": [
+        "/Users/drupadkumar.singh/Repo/rescript-euler-dashboard/packages/crafter/src/Theme"
+      ],
+      "expanded": true,
+      "sidebarModuleName": "Theme"
+    }
+  ],
+  "rootFilePath": "/Users/drupadkumar.singh/Repo/rescript-euler-dashboard/packages/crafter/test/Doc.res"
+}

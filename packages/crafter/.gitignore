@@ -1,0 +1,8 @@
+lib
+dist
+node_modules
+**/*.bs.js
+.yarn
+dune-project
+docs/generated/*
+docs/metadata/*
